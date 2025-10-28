@@ -36,3 +36,16 @@ lerna-debug.log*
 
 # PM2
 .pm2
+
+# Project-specific files (internal planning/notes)
+27OCT-for-improvement.md
+ANALYTICS_COMPARISON.md
+ANALYTICS_SETUP.md
+GITHUB_SETUP.md
+IMPLEMENTATION_PLAN.md
+README.md
+SCROLLYTELLING_PROMPT_GUIDE.md
+SCROLLYTELLING_TEMPLATE.json
+SETUP.md
+SUMMARY.md
+UMAMI_SETUP.md
