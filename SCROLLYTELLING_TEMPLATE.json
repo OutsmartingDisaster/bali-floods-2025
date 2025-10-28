@@ -1,0 +1,150 @@
+{
+  "project_metadata": {
+    "template_name": "Data Journalism Scrollytelling Template",
+    "version": "1.0.0",
+    "based_on": "Bali Floods 2025 Project",
+    "description": "Comprehensive template for creating immersive, data-driven scrollytelling narratives",
+    "ideal_for": ["Environmental disasters", "Social justice", "Data journalism", "Crisis documentation"]
+  },
+
+  "technical_stack": {
+    "framework": "React + Vite",
+    "styling": "TailwindCSS",
+    "mapping": "Leaflet.js",
+    "charts": "Recharts",
+    "scrolling": "react-scrollama",
+    "i18n": "react-i18next"
+  },
+
+  "design_system": {
+    "color_palette": {
+      "backgrounds": {
+        "dark": "#000000",
+        "slate": "#0f172a",
+        "gray": "#1e293b"
+      },
+      "text": {
+        "primary": "#ffffff",
+        "secondary": "#e2e8f0",
+        "muted": "#94a3b8"
+      },
+      "accents": {
+        "blue": "#3b82f6",
+        "green": "#10b981",
+        "yellow": "#f59e0b",
+        "orange": "#f97316",
+        "red": "#ef4444"
+      },
+      "severity": {
+        "low": "#fef3c7",
+        "medium": "#fb923c",
+        "high": "#dc2626"
+      }
+    },
+    "typography": {
+      "font_family": "Inter, system-ui, sans-serif",
+      "sizes": {
+        "hero": "4xl-6xl (2.25rem-3.75rem)",
+        "section": "3xl-4xl (1.875rem-2.25rem)",
+        "body": "base-xl (1rem-1.25rem)",
+        "caption": "xs-sm (0.75rem-0.875rem)"
+      },
+      "weights": {
+        "regular": 400,
+        "semibold": 600,
+        "bold": 700
+      }
+    },
+    "spacing": {
+      "section_gap": "20rem",
+      "content_gap": "6rem",
+      "paragraph_gap": "2rem"
+    }
+  },
+
+  "narrative_structure": [
+    {
+      "section": "hero",
+      "purpose": "Immediate visual impact",
+      "components": ["Full-screen image", "Title", "Subtitle", "Scroll indicator"],
+      "design": {
+        "height": "100vh",
+        "background": "Dark overlay on image",
+        "text_align": "center"
+      }
+    },
+    {
+      "section": "intro",
+      "purpose": "Context and stakes",
+      "components": ["3-4 paragraphs", "Key image", "Community voices"],
+      "design": {
+        "background": "Black",
+        "max_width": "4xl"
+      }
+    },
+    {
+      "section": "methodology",
+      "purpose": "Build credibility",
+      "components": ["7 paragraphs explaining approach"],
+      "design": {
+        "background": "White",
+        "text_color": "Black"
+      }
+    },
+    {
+      "section": "scrollytelling_main",
+      "purpose": "Core narrative",
+      "components": ["Sticky map", "Scroll steps", "Impact boxes", "Media embeds"],
+      "design": {
+        "layout": "50/50 split",
+        "step_height": "100vh"
+      }
+    },
+    {
+      "section": "data_analysis",
+      "purpose": "Deep dive into data",
+      "components": ["Maps", "Charts", "Statistics"],
+      "design": {
+        "background": "White"
+      }
+    },
+    {
+      "section": "critique",
+      "purpose": "Expose contradictions",
+      "components": ["Paradox setup", "Evidence", "Analysis"],
+      "design": {
+        "background": "Blue gradient",
+        "text_color": "White"
+      }
+    },
+    {
+      "section": "conclusion",
+      "purpose": "Synthesis and call to action",
+      "components": ["2-3 paragraphs", "Reflection"],
+      "design": {
+        "background": "Blue gradient",
+        "text_align": "center"
+      }
+    }
+  ],
+
+  "scrollytelling_mechanics": {
+    "library": "react-scrollama",
+    "scroll_step": {
+      "min_height": "100vh",
+      "content": ["Title", "Description", "Media", "Impact box"]
+    },
+    "blank_steps": "For pacing between major reveals",
+    "sticky_elements": "Map stays fixed while text scrolls"
+  },
+
+  "file_structure": {
+    "src/": {
+      "App.jsx": "Main component",
+      "components/sections/": "Section components",
+      "components/charts/": "Chart components",
+      "i18n/translations.js": "All translations",
+      "data/": "Data files"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<NetworkLink>
+	<name>inarisk/layer_risiko_banjir</name>
+	<open>1</open>
+	<LookAt>
+		<longitude>118.0492838286919</longitude>
+		<latitude>-2.573290941127634</latitude>
+		<altitude>0</altitude>
+		<heading>0</heading>
+		<tilt>0</tilt>
+		<range>2986148.226435169</range>
+	</LookAt>
+	<Region>
+		<LatLonAltBox>
+			<north>90</north>
+			<south>-90</south>
+			<east>180</east>
+			<west>-180</west>
+			<minAltitude>0</minAltitude>
+			<maxAltitude>0</maxAltitude>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>128</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+			<minFadeExtent>0</minFadeExtent>
+			<maxFadeExtent>0</maxFadeExtent>
+		</Lod>
+		<LatLonBox>
+<north>5.861725961435662</north>
+<south>-11.008307843690929</south>
+<east>141.0196548012701</east>
+<west>95.07891285611365</west>
+</LatLonBox>
+	</Region>
+	<Link>
+		<href>https://gis.bnpb.go.id/server/rest/services/inarisk/layer_risiko_banjir/ImageServer/exportImage?</href>
+		<viewRefreshMode>onStop</viewRefreshMode>
+		<viewRefreshTime>2</viewRefreshTime>
+		<viewFormat>f=kmz&amp;bboxSR=4326&amp;imageSR=4326&amp;format=jpgpng&amp;bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;size=[horizPixels],[vertPixels]&amp;</viewFormat>
+	</Link>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+</NetworkLink>
+</kml>
