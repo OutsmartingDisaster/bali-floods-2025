@@ -4,7 +4,7 @@ export const translations = {
       // Hero Section (updated with your version)
       hero: {
         title: "Are We Ready to Face Floods?",
-        subtitle: "Bali 9–11 September 2025: The Worst Hydrometeorological Disaster in Balinese History",
+        subtitle: "Data storytelling built on citizen grievances and official statements from authorities on social media.",
         scrollDown: "Scroll to explore the story",
         altText: "Bali Floods 2025",
         socialAltInstagram: "Instagram content",
@@ -197,12 +197,12 @@ export const translations = {
           consequence4: "Infrastructure & property losses",
           priority: "High-Density Areas (High Priority):",
           priorityList: "Padangsambian Klod (32,838), Pemogan (31,394), Sesetan (30,245), Dauh Puri Klod (29,521)",
-          note: "These findings are consistent with BNPB's InaRISK risk map, which places Denpasar in a high-risk zone."
+          note: "This finding is consistent with BNPB's InaRISK map, which places Denpasar in a high-risk zone. But flooding also occurred outside the areas on the InaRISK map. Is the risk map still relevant? Hmm..."
         }
       },
       // Data Visualization Section (updated with your commentary)
       dataVisualization: {
-        title: "Disaster Data Visualization",
+        title: "How Intense Was the Rain?",
         weatherTitle: "Rainfall Data September 8–13, 2025",
         weatherParagraph1: "Rainfall in Bali began to increase significantly since Tuesday, September 9, 2025, when light to moderate rain gradually turned into heavy rain in many areas. BMKG recorded that during the period of September 9–10, almost all regencies and cities in Bali experienced heavy rain with rainfall between 50 mm to more than 150 mm per day.",
         weatherParagraph2: "At its peak, BMKG records show extreme rainfall reaching around 380 mm in one day in several places—a figure far exceeding the normal daily threshold (~150 mm) for heavy rain.",
@@ -260,9 +260,9 @@ export const translations = {
         forum4Desc: "Making Bali the center of global commitment to ocean health, which is very vital for coastal resilience against abrasion threats and sea level rise.",
         forumImplementation: "On paper, this momentum is supported by field implementation programs. Bali was designated as a pilot project for the UN initiative 'Making Cities Resilience 2030' (MCR 2030) and became the focus of the SIAP SIAGA Partnership Program with Australia. At the national level, Bali became a reference for 'Disaster-Safe Tourism' and 'Disaster-Safe Education Units' (SPAB).",
         forumConclusion: "In short, Bali is the world's center for designing and evaluating resilience strategies.",
-        realityTitle: "Brutal Test: The Reality of 2025 Disaster",
+        realityTitle: "When Bali is tested by its own nature.",
         reality1: "However, the status as a 'laboratory' and host of a parade of global forums did not make Bali immune. The year 2025 became a brutal reminder of the stakes involved.",
-        reality2: "After a series of hydrometeorological disasters such as floods and landslides in January and February that had claimed lives, the peak occurred in September 2025. Triggered by extreme rain due to Rossby and Kelvin atmospheric wave phenomena, flash floods and landslides struck six regencies/cities.",
+        reality2: "After a series of hydrometeorological disasters such as floods and landslides in January and February that had claimed lives, the peak occurred in September 2025. Triggered by extreme rain due to Rossby and Kelvin atmospheric wave phenomena, flash floods and landslides struck six regencies/cities. Because the rainfall was deemed unexceptional, stakeholders did not initiate requests for satellite-based monitoring from organizations such as JAXA or UNITAR/UNOSAT, highlighting a systemic failure in early warning.",
         reality3: "This is no longer a training scenario; this is a real crisis.",
         stat1: "18",
         stat1Label: "Casualties",
@@ -271,7 +271,7 @@ export const translations = {
         stat3: "Thousands",
         stat3Label: "Affected Residents",
         realityConclusion: "Official data recorded 18 casualties and thousands of affected residents. Six areas, including downtown Denpasar, were severely flooded. Vital infrastructure was damaged, and disaster emergency response status was immediately declared.",
-        gapTitle: "Real Gap: Failure to Bridge Forums and Reality",
+        gapTitle: "Failure to Bridge Forums and Reality",
         gap1: "The September 2025 tragedy presents a sharp question: What is the meaning of all the global forums, 'Bali Agenda', and pilot project status if people on the ground are still flooded and become victims?",
         gap2: "This disaster clearly proves that Bali is not ready to face disasters. There is a massive gap between strategic discussions in luxurious conference rooms and practical implementation on riverbanks and dense settlements.",
         gap3: "The fact of 18 casualties is too high a price for a 'lesson'. This tragedy is not just data for MCR 2030 program evaluation material; this is real evidence that these programs have not succeeded in touching the root problems of vulnerability, spatial planning, and environmental carrying capacity that has been damaged.",
@@ -279,10 +279,12 @@ export const translations = {
       },
       // Conclusion (enhanced with your reflection)
       conclusion: {
-        title: "Call for Real Resilience",
-        content1: "The 2025 Denpasar flood is a harsh reminder that disaster resilience isn't just about international forums and policy documents, but about real implementation that touches people's lives on the ground.",
-        content2: "It's time for Bali to not just be a stage for global discussions, but also a living example of resilience built from grassroots to high-level policies.",
-        reflection: "Resilience grows from the roots—from communities that care for one another, from traditions that honor nature, up to policies that prioritize life. And as the mud and floodwaters slowly recede, we must pause and ask: Have we truly learned from this disaster, or are we merely spectators waiting for the next one to come?"
+        title: "The People are Asked to Trust the System.\nThen the System Blames the Weather.",
+        content1: "The Denpasar flood in September 2025 serves as a painful reminder: public trust is a fragile asset easily eroded by neat justifications. As the waters receded, the first narrative presented to the public was singular—that the disaster was due to extreme weather. The System swiftly used scientific data about Rossby Waves or the MJO to wash its hands of structural responsibility.",
+        content2: "In reality, this flood is the result of a complex calculation between uncontrollable rainfall and systemic failures that are within control. These failures manifested in: building permits continuously issued in water catchment areas, a city drainage system left clogged with years of trash, and spatial planning inconsistencies that sacrificed rivers for property interests. The System failed to manage fundamental issues, yet asks the people to accept the easiest excuse: that nature was raging.",
+        content3: "The Denpasar Flood of 2025 is a stark reminder that resilience is not born from grand meetings or thick documents, but from tangible actions felt in daily life. Resilience will not be achieved if the government acts merely as an administrator who shifts the blame onto natural phenomena.",
+        content4: "It is time for Bali to not only be a stage for global discussions but also to be truly resilient ground, where the spirit of resilience grows and strengthens up to the highest policies. Bali no longer needs to be a showcase for climate seminars that end with fragile local policies. True resilience is accountability.",
+        reflection: "Resilience grows from the roots, from a community that protects one another, from traditions that respect nature, all the way up to policies that side with life. And, amidst the mud and slowly receding water, we need to pause and ask: have we truly learned from the disaster, or are we just spectators waiting for the next one to arrive? That question is not for the people cleaning their homes, but for the system tasked with guarding the promise of protection."
       },
       // Credits
       credits: {
@@ -301,7 +303,7 @@ export const translations = {
       // Hero Section
       hero: {
         title: "Apakah Kita Siap Menghadapi Banjir?",
-        subtitle: "Bali 9–11 September 2025: Bencana Hidrometeorologi Terparah dalam Sejarah Masyarakat Bali",
+        subtitle: "Data storytelling yang disusun berdasarkan jeritan warga Bali dan laporan formalitas aparat di sosial media.",
         scrollDown: "Gulir untuk menjelajahi cerita",
         altText: "Banjir Bali 2025",
         socialAltInstagram: "Konten Instagram",
@@ -493,12 +495,12 @@ export const translations = {
           consequence4: "Kerugian infrastruktur & properti",
           priority: "Area Terpadat (High Priority):",
           priorityList: "Padangsambian Klod (32,838), Pemogan (31,394), Sesetan (30,245), Dauh Puri Klod (29,521)",
-          note: "Temuan ini konsisten dengan peta risiko InaRISK BNPB, yang menempatkan Denpasar dalam zona risiko tinggi."
+          note: "Temuan ini konsisten dengan peta risiko InaRISK BNPB, yang menempatkan Denpasar dalam zona risiko tinggi. Tapi terdapat juga banjir diluar peta risiko InaRISK. Apakah peta risikonya masih relevan? Hmm.."
         }
       },
       // Data Visualization Section
       dataVisualization: {
-        title: "Data Visualisasi Bencana",
+        title: "Seberapa deras sih hujannya?",
         weatherTitle: "Data Curah Hujan 8–13 September 2025",
         weatherParagraph1: "Curah hujan di Bali mulai meningkat signifikan sejak Selasa, 9 September 2025, saat hujan ringan sampai sedang berangsur berubah menjadi hujan lebat di banyak daerah. BMKG mencatat bahwa selama periode 9–10 September, hampir seluruh kabupaten dan kota di Bali mengalami hujan deras dengan curah antara 50 mm hingga lebih dari 150 mm per hari.",
         weatherParagraph2: "Pada puncaknya, catatan BMKG menunjukkan curah hujan ekstrem mencapai sekitar 380 mm dalam satu hari di beberapa tempat—angka yang jauh melebihi ambang normal harian (~150 mm) untuk hujan lebat.",
@@ -553,9 +555,9 @@ export const translations = {
         forum4Desc: "Menjadikan Bali pusat komitmen global untuk kesehatan laut, yang sangat vital bagi ketahanan pesisir dari ancaman abrasi dan kenaikan air laut.",
         forumImplementation: "Di atas kertas, momentum ini didukung oleh program implementasi di lapangan. Bali ditunjuk sebagai pilot project inisiatif PBB 'Making Cities Resilience 2030' (MCR 2030) dan menjadi fokus Program Kemitraan SIAP SIAGA dengan Australia. Di tingkat nasional, Bali menjadi acuan 'Pariwisata Aman Bencana' dan 'Satuan Pendidikan Aman Bencana' (SPAB).",
         forumConclusion: "Singkatnya, Bali adalah pusat dunia untuk desain dan evaluasi strategi ketangguhan.",
-        realityTitle: "Ujian 2025: Saat Bali Diuji Alamnya Sendiri",
+        realityTitle: "Saat Bali Diuji Alamnya Sendiri",
         reality1: "Status sebagai 'laboratorium dunia' dan tuan rumah berbagai forum global nyatanya tak membuat Bali kebal dari bencana. Tahun 2025 menjadi pengingat bahwa ketangguhan sejati bukan sekadar jargon.",
-        reality2: "Setelah dihantam banjir dan longsor di Januari dan Februari yang menelan korban jiwa, puncaknya datang pada September 2025. Hujan ekstrem akibat gelombang atmosfer Rossby dan Kelvin mengguyur tanpa henti, memicu banjir bandang dan longsor di enam kabupaten/kota. Dalam sekejap, Bali yang biasanya tenang dan elok berubah menjadi pulau yang berjuang melawan air dan lumpur.",
+        reality2: "Setelah dihantam banjir dan longsor di Januari dan Februari yang menelan korban jiwa, puncaknya datang pada September 2025. Hujan ekstrem akibat gelombang atmosfer Rossby dan Kelvin mengguyur tanpa henti, memicu banjir bandang dan longsor di enam kabupaten/kota. Dalam sekejap, Bali yang biasanya tenang dan elok berubah menjadi pulau yang berjuang melawan air dan lumpur. Karena hujan dianggap biasa saja, tidak ada langkah proaktif untuk meminta dukungan pemantauan dari penyedia data satelit seperti JAXA atau UNITAR/UNOSAT. Sebuah celah yang menunjukkan pentingnya sistem deteksi dini yang lebih responsif.",
         reality3: "Ini bukan lagi skenario latihan; ini adalah krisis nyata.",
         stat1: "18",
         stat1Label: "Korban Jiwa",
@@ -564,7 +566,7 @@ export const translations = {
         stat3: "Ribuan",
         stat3Label: "Warga Terdampak",
         realityConclusion: "Data resmi mencatat 18 korban jiwa dan ribuan warga terdampak. Enam wilayah, termasuk pusat perkotaan Denpasar, tergenang parah. Infrastruktur vital rusak, dan status tanggap darurat bencana ditetapkan.",
-        gapTitle: "Kesenjangan Nyata: Kegagalan Menjembatani Forum dan Realitas",
+        gapTitle: "Kegagalan Menjembatani Forum dan Realitas",
         gap1: "Tragedi September 2025 menampar kesadaran kita: apa gunanya semua forum global, 'Bali Agenda', dan status pilot project jika masyarakat di lapangan masih tergenang dan menjadi korban hingga kehilangan tempat tinggal?",
         gap2: "Bencana ini membuka mata bahwa Bali belum siap. Ada jurang lebar antara diskusi megah di ruang konferensi berpendingin udara dan kenyataan getir di bantaran sungai serta gang-gang padat tempat warga berjuang menyelamatkan diri.",
         gap3: "Fakta yang menunjukkan adanya 18 korban jiwa adalah harga yang terlalu mahal untuk sebuah 'pelajaran'. Tragedi ini bukan sekadar data untuk bahan evaluasi program MCR 2030; ini adalah bukti nyata bahwa program-program tersebut belum berhasil menyentuh akar masalah kerentanan, tata ruang, dan daya dukung lingkungan yang terlanjur rusak.",
@@ -572,14 +574,16 @@ export const translations = {
       },
       // Conclusion
       conclusion: {
-        title: "Seruan untuk Ketangguhan Nyata",
-        content1: "Banjir Denpasar 2025 menjadi pengingat keras bahwa ketangguhan bukan lahir dari rapat-rapat megah atau dokumen tebal, tapi dari aksi nyata yang terasa di kehidupan sehari-hari.",
-        content2: "Sudah saatnya Bali tidak hanya menjadi panggung diskusi global, tetapi juga sebagai tanah yang benar-benar tangguh, di mana semangat resiliensi tumbuh dan menguat hingga ke kebijakan tertinggi.",
-        reflection: "Resiliensi tumbuh dari akar, dari masyarakat yang saling menjaga, dari tradisi yang menghormati alam, hingga ke kebijakan yang berpihak pada kehidupan. Dan, di tengah lumpur dan air yang surut perlahan, kita perlu berhenti sejenak untuk bertanya: sudahkah kita benar-benar belajar dari bencana, atau hanya sebagai penonton menunggu bencana berikutnya datang?"
+        title: "Rakyat diminta percaya pada sistem.\nLalu sistem menyalahkan cuaca.",
+        content1: "Banjir Denpasar pada September 2025 menjadi pengingat yang menyakitkan: kepercayaan publik adalah aset rapuh yang mudah terkikis oleh pembenaran yang ringkas. Ketika air surut, hal pertama yang disodorkan kepada rakyat adalah narasi tunggal—bahwa bencana ini adalah gara-gara cuaca ekstrem. Sistem dengan sigap menggunakan data ilmiah tentang Gelombang Rossby atau MJO untuk membersihkan tangan dari tanggung jawab struktural.",
+        content2: "Padahal, banjir ini adalah hasil dari kalkulasi yang rumit antara curah hujan yang di luar kendali dan kegagalan sistem yang berada di bawah kendali. Kegagalan ini terwujud dalam: izin-izin pembangunan yang terus dikeluarkan di daerah resapan air, sistem drainase kota yang didiamkan tersumbat oleh sampah bertahun-tahun, dan inkonsistensi tata ruang yang mengorbankan sungai demi kepentingan properti. Sistem telah gagal mengurus hal-hal mendasar, namun meminta rakyat untuk menerima alasan yang paling mudah: bahwa alam sedang murka.",
+        content3: "Banjir Denpasar 2025 menjadi pengingat keras bahwa ketangguhan bukan lahir dari rapat-rapat megah atau dokumen tebal, tapi dari aksi nyata yang terasa di kehidupan sehari-hari. Ketangguhan tidak akan tercapai jika pemerintah hanya menjadi administrator yang melimpahkan kesalahan kepada fenomena alam.",
+        content4: "Sudah saatnya Bali tidak hanya menjadi panggung diskusi global, tetapi juga sebagai tanah yang benar-benar tangguh, di mana semangat resiliensi tumbuh dan menguat hingga ke kebijakan tertinggi. Bali tidak perlu lagi menjadi etalase seminar iklim yang diakhiri dengan kebijakan lokal yang rapuh. Resiliensi sejati adalah akuntabilitas.",
+        reflection: "Resiliensi tumbuh dari akar, dari masyarakat yang saling menjaga, dari tradisi yang menghormati alam, hingga ke kebijakan yang berpihak pada kehidupan. Dan, di tengah lumpur dan air yang surut perlahan, kita perlu berhenti sejenak untuk bertanya: sudahkah kita benar-benar belajar dari bencana, atau hanya sebagai penonton menunggu bencana berikutnya datang? Pertanyaan itu bukan untuk rakyat yang membersihkan rumah mereka, melainkan untuk sistem yang bertugas menjaga janji perlindungan."
       },
       // Credits
       credits: {
-        title: "Kredit",
+        title: "Tim Penyusun",
         crowdsourcing: "Data Crowdsourcing:",
         analysis: "Analisis Geospasial dan Visualisasi Data:",
         storyline: "Alur Cerita:",

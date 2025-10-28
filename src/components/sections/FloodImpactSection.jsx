@@ -135,7 +135,16 @@ const FloodImpactSection = () => {
       layerStyles: {
         floodPoints: { color: '#dc2626', size: 8, opacity: 1 },
         populationChoropleth: {
-          opacity: 0.7
+          opacity: 0.5,
+          colors: {
+            5000: '#dbeafe',   // blue-100
+            10000: '#bfdbfe',  // blue-200
+            15000: '#93c5fd',  // blue-300
+            20000: '#60a5fa',  // blue-400
+            25000: '#3b82f6',  // blue-500
+            30000: '#2563eb',  // blue-600
+            35000: '#1e40af'   // blue-700
+          }
         },
         floodImpact: {
           colorByDepth: true,

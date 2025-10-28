@@ -70,7 +70,7 @@ const WeatherChart = () => {
     <div className="mt-12">
       <div className="mb-6">
         <h4 className="text-2xl font-bold text-black mb-4 text-center">
-          Data Cuaca Denpasar (8-11 September 2025)
+          
         </h4>
         
         {/* Chart Toggle */}

@@ -81,7 +81,7 @@ function App() {
             <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
               {t('researchMethodology.title')}
             </h2>
-            <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+            <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed text-justify">
               <p className="mb-4">
                 {t('researchMethodology.paragraph1')}
               </p>
@@ -218,7 +218,7 @@ function App() {
               </div>
               <div className="bg-orange-50 p-6 rounded-lg border border-orange-200">
                 <div className="text-4xl font-bold text-orange-700">{t('dataVisualization.stat2Value')}</div>
-                <div className="text-black font-bold mt-2">{t('dataVisualization.stat2Label')}</div>
+              <div className="text-black font-bold mt-2">{t('dataVisualization.stat2Label')}</div>
               </div>
               <div className="bg-green-50 p-6 rounded-lg border border-green-200">
                 <div className="text-4xl font-bold text-green-700">{t('dataVisualization.stat3Value')}</div>
@@ -244,10 +244,10 @@ function App() {
 
           {/* Introduction */}
           <div className="prose prose-lg prose-invert max-w-none mb-16">
-            <p className="text-xl text-slate-200 leading-relaxed">
+            <p className="text-xl text-slate-200 leading-relaxed text-justify">
               {t('irony.intro1')}
             </p>
-            <p className="text-xl text-slate-200 leading-relaxed">
+            <p className="text-xl text-slate-200 leading-relaxed text-justify">
               {t('irony.intro2')}
             </p>
           </div>
@@ -305,10 +305,10 @@ function App() {
               {t('irony.realityTitle')}
             </h3>
             <div className="bg-red-950 bg-opacity-30 backdrop-blur-sm rounded-lg p-8 border border-red-900 mb-8">
-              <p className="text-lg text-slate-200 leading-relaxed mb-4">
+              <p className="text-lg text-slate-200 leading-relaxed mb-4 text-justify">
                 {t('irony.reality1')}
               </p>
-              <p className="text-lg text-slate-200 leading-relaxed mb-4">
+              <p className="text-lg text-slate-200 leading-relaxed mb-4 text-justify">
                 {t('irony.reality2')}
               </p>
               <p className="text-xl text-red-300 font-semibold">
@@ -342,13 +342,13 @@ function App() {
               {t('irony.gapTitle')}
             </h3>
             <div className="bg-yellow-950 bg-opacity-20 backdrop-blur-sm rounded-lg p-8 border border-yellow-900">
-              <p className="text-xl text-slate-200 leading-relaxed mb-6 font-semibold">
+              <p className="text-xl text-slate-200 leading-relaxed mb-6 font-semibold text-justify">
                 {t('irony.gap1')}
               </p>
-              <p className="text-lg text-slate-200 leading-relaxed mb-4">
+              <p className="text-lg text-slate-200 leading-relaxed mb-4 text-justify">
                 {t('irony.gap2')}
               </p>
-              <p className="text-lg text-red-300 leading-relaxed mb-4">
+              <p className="text-lg text-red-300 leading-relaxed mb-4 text-justify">
                 {t('irony.gap3')}
               </p>
               <p className="text-xl text-slate-100 leading-relaxed font-semibold italic text-center mt-8">
@@ -363,14 +363,22 @@ function App() {
       {/* Conclusion */}
       <ScrollStep className="bg-gradient-to-b from-blue-900 to-blue-800 text-white py-20">
         <div className="max-w-4xl mx-auto text-center px-6">
-          <h2 className="text-4xl font-bold mb-8">{t('conclusion.title')}</h2>
-          <p className="text-xl text-blue-200 mb-8 leading-relaxed">
+          <h2 className="text-4xl font-bold mb-8 text-center">
+            {t('conclusion.title')}
+          </h2>
+          <p className="text-xl text-blue-200 mb-8 leading-relaxed text-justify">
             {t('conclusion.content1')}
           </p>
-          <p className="text-lg text-blue-300 mb-8 leading-relaxed">
+          <p className="text-xl text-blue-200 mb-8 leading-relaxed text-justify">
             {t('conclusion.content2')}
           </p>
-          <p className="text-base text-blue-100 italic leading-relaxed">
+          <p className="text-xl text-blue-200 mb-8 leading-relaxed text-justify">
+            {t('conclusion.content3')}
+          </p>
+          <p className="text-xl text-blue-200 mb-8 leading-relaxed text-justify">
+            {t('conclusion.content4')}
+          </p>
+          <p className="text-base text-blue-100 italic leading-relaxed text-justify">
             {t('conclusion.reflection')}
           </p>
         </div>

@@ -129,7 +129,7 @@ const InteractiveMap = forwardRef(({
         const popData = await popResponse.json();
         setPopulationPoints(popData);
 
-        const kelurahanResponse = await fetch('/data/kelurahan_boundaries.geojson');
+        const kelurahanResponse = await fetch('/data/Data Populasi Kota Denpasar 2020.geojson');
         const kelurahanData = await kelurahanResponse.json();
         setKelurahanBoundaries(kelurahanData);
       } catch (error) {
@@ -245,6 +245,57 @@ const InteractiveMap = forwardRef(({
                 'line-color': mapState?.layerStyles?.adminBoundaries?.color || '#000000',
                 'line-width': mapState?.layerStyles?.adminBoundaries?.width || 2,
                 'line-opacity': mapState?.layerStyles?.adminBoundaries?.opacity || 0.5
+              }}
+            />
+          </Source>
+        )}
+
+        {/* LAYER ORDER (bottom to top): Population → InaRISK → Rivers → Flood Points */}
+        
+        {/* 1. Population Choropleth - BOTTOM LAYER (50% opacity, blue palette) */}
+        {kelurahanBoundaries && (mapState?.layers?.populationChoropleth ?? false) && (
+          <Source 
+            id="population-choropleth-bottom" 
+            type="geojson" 
+            data={kelurahanBoundaries}
+          >
+            <Layer
+              id="population-choropleth-fill-bottom"
+              type="fill"
+              paint={{
+                'fill-color': mapState?.layerStyles?.populationChoropleth?.colors ? [
+                  'interpolate',
+                  ['linear'],
+                  ['to-number', ['get', 'Export_D_3']],
+                  5000, mapState.layerStyles.populationChoropleth.colors[5000],
+                  10000, mapState.layerStyles.populationChoropleth.colors[10000],
+                  15000, mapState.layerStyles.populationChoropleth.colors[15000],
+                  20000, mapState.layerStyles.populationChoropleth.colors[20000],
+                  25000, mapState.layerStyles.populationChoropleth.colors[25000],
+                  30000, mapState.layerStyles.populationChoropleth.colors[30000],
+                  35000, mapState.layerStyles.populationChoropleth.colors[35000]
+                ] : [
+                  'interpolate',
+                  ['linear'],
+                  ['to-number', ['get', 'Export_D_3']],
+                  5000, '#dbeafe',
+                  10000, '#bfdbfe',
+                  15000, '#93c5fd',
+                  20000, '#60a5fa',
+                  25000, '#3b82f6',
+                  30000, '#2563eb',
+                  35000, '#1e40af'
+                ],
+                'fill-opacity': mapState?.layerStyles?.populationChoropleth?.opacity || 0.5
+              }}
+            />
+            <Layer
+              id="population-choropleth-outline-bottom"
+              type="line"
+              paint={{
+                'line-color': '#ffffff',
+                'line-width': 1,
+                'line-opacity': 0.5
               }}
             />
           </Source>
@@ -425,44 +476,6 @@ const InteractiveMap = forwardRef(({
           </Source>
         )}
 
-        {/* 2D Population Choropleth using Kelurahan Boundaries */}
-        {kelurahanBoundaries && (mapState?.layers?.populationChoropleth ?? false) && (
-          <Source 
-            id="population-choropleth" 
-            type="geojson" 
-            data={kelurahanBoundaries}
-          >
-            <Layer
-              id="population-choropleth-fill"
-              type="fill"
-              paint={{
-                'fill-color': [
-                  'interpolate',
-                  ['linear'],
-                  ['get', 'jumlah_penduduk'],
-                  5000, '#fef3c7',
-                  10000, '#fde68a',
-                  15000, '#fcd34d',
-                  20000, '#fbbf24',
-                  25000, '#f59e0b',
-                  30000, '#d97706',
-                  35000, '#b45309'
-                ],
-                'fill-opacity': mapState?.layerStyles?.populationChoropleth?.opacity || 0.7
-              }}
-            />
-            <Layer
-              id="population-choropleth-outline"
-              type="line"
-              paint={{
-                'line-color': '#ffffff',
-                'line-width': 1,
-                'line-opacity': 0.5
-              }}
-            />
-          </Source>
-        )}
-
         {/* 3D Population Extrusion using Kelurahan Boundaries */}
         {kelurahanBoundaries && (mapState?.layers?.population3D ?? false) && (
           <Source 
@@ -477,7 +490,7 @@ const InteractiveMap = forwardRef(({
                 'fill-extrusion-color': [
                   'interpolate',
                   ['linear'],
-                  ['get', 'jumlah_penduduk'],
+                  ['to-number', ['get', 'Export_D_3']],
                   5000, '#e9d5ff',
                   10000, '#d8b4fe',
                   15000, '#c084fc',
@@ -488,7 +501,7 @@ const InteractiveMap = forwardRef(({
                 ],
                 'fill-extrusion-height': [
                   '*',
-                  ['get', 'jumlah_penduduk'],
+                  ['to-number', ['get', 'Export_D_3']],
                   mapState?.layerStyles?.population3D?.heightMultiplier || 2
                 ],
                 'fill-extrusion-base': 0,
